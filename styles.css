@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.gridcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    margin: 100px auto;
+}
+
+.griditem {
+    border: 1px solid black;
+}
