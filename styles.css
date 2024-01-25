@@ -1,18 +1,32 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0%;
+    /*background-color: black;*/
 }
+
 
 .gridcontainer {
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
-    margin: 100px auto;
+    margin: 100px auto 30px auto;
 }
 
 .griditem {
     border: 1px solid black;
+}
+
+.slider-container{
+    height: 20px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.slider {
+    height: 10px;
+    width: 100%;
 }
